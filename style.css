@@ -1,0 +1,42 @@
+* {
+  font-family: "Poppins";
+}
+body {
+  font-family: Arial, sans-serif;
+  background: #1e1e1e;
+  text-align: center;
+  padding: 20px;
+}
+h1 {
+  color: #e1e1e1;
+}
+#dog-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+.dog-img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+input,
+button {
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  font-weight: 400;
+  font-family: "Poppins";
+}
+button {
+  background: #00aeff;
+  color: white;
+  cursor: pointer;
+}
+button:hover {
+  background: rgb(0, 123, 255);
+}
