@@ -40,13 +40,6 @@ A simple, responsive web application that displays random dog images and allows 
 - API error responses (invalid breeds)
 - Network error handling with try-catch blocks
 
-## File Structure
-```
-dog-gallery.html
-├── HTML structure
-├── CSS styling (styles.css)
-└── JavaScript functionality (app.js)
-```
 
 ## Browser Compatibility
 Works in all modern browsers that support:
